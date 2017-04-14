@@ -1,14 +1,14 @@
 //
-//  SecondViewController.swift
-//  Inside T-Rex
+//  ViewController.swift
+//  Inside_T-Rex
 //
-//  Created by Esteban Keplinger on 4/3/17.
+//  Created by Esteban Keplinger on 4/9/17.
 //  Copyright © 2017 Esteban Keplinger. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,4 +20,6 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+
 }
+

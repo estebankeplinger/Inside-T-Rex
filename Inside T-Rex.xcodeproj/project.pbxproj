@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B140D4E1E9AD597005A1C8D /* LoginPageControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B140D4D1E9AD597005A1C8D /* LoginPageControllerViewController.swift */; };
+		5B485AAD1E9EFDAB00F406AB /* HelpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B485AAC1E9EFDAB00F406AB /* HelpScreen.swift */; };
 		5B6059FE1E92BD2100E1F313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6059FD1E92BD2100E1F313 /* AppDelegate.swift */; };
 		5B605A001E92BD2100E1F313 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6059FF1E92BD2100E1F313 /* FirstViewController.swift */; };
 		5B605A021E92BD2100E1F313 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B605A011E92BD2100E1F313 /* SecondViewController.swift */; };
@@ -14,12 +16,13 @@
 		5B605A071E92BD2100E1F313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B605A061E92BD2100E1F313 /* Assets.xcassets */; };
 		5B605A151E92BD2100E1F313 /* Inside_T_RexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B605A141E92BD2100E1F313 /* Inside_T_RexTests.swift */; };
 		5B605A201E92BD2100E1F313 /* Inside_T_RexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B605A1F1E92BD2100E1F313 /* Inside_T_RexUITests.swift */; };
-		5B605A2E1E92BE0B00E1F313 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B605A2D1E92BE0B00E1F313 /* TaskManager.swift */; };
 		5B605A301E92CEC600E1F313 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B605A2F1E92CEC600E1F313 /* TaskItem.swift */; };
 		5B605A351E92F81D00E1F313 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B605A341E92F81D00E1F313 /* Launch Screen.storyboard */; };
 		5B605A3A1E930B3600E1F313 /* trex-logo-footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B605A371E930B3600E1F313 /* trex-logo-footer.png */; };
 		5B605A3B1E930B3600E1F313 /* Logo-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B605A381E930B3600E1F313 /* Logo-Small.png */; };
 		5B605A3C1E930B3600E1F313 /* trex-logo-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B605A391E930B3600E1F313 /* trex-logo-circle.png */; };
+		5B720EAD1E941BE300D3F955 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B720EAC1E941BE300D3F955 /* TaskViewController.swift */; };
+		5B8920D31E9BF9B100DF4047 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8920D21E9BF9B100DF4047 /* Register.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B140D4D1E9AD597005A1C8D /* LoginPageControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageControllerViewController.swift; sourceTree = "<group>"; };
+		5B485AAC1E9EFDAB00F406AB /* HelpScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpScreen.swift; sourceTree = "<group>"; };
 		5B6059FA1E92BD2100E1F313 /* Inside T-Rex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inside T-Rex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6059FD1E92BD2100E1F313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B6059FF1E92BD2100E1F313 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -53,12 +58,13 @@
 		5B605A1B1E92BD2100E1F313 /* Inside T-RexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inside T-RexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B605A1F1E92BD2100E1F313 /* Inside_T_RexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inside_T_RexUITests.swift; sourceTree = "<group>"; };
 		5B605A211E92BD2100E1F313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B605A2D1E92BE0B00E1F313 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 		5B605A2F1E92CEC600E1F313 /* TaskItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
 		5B605A341E92F81D00E1F313 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5B605A371E930B3600E1F313 /* trex-logo-footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trex-logo-footer.png"; path = "../../../Downloads/trex-logo-footer.png"; sourceTree = "<group>"; };
 		5B605A381E930B3600E1F313 /* Logo-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Logo-Small.png"; path = "../../../Downloads/Logo-Small.png"; sourceTree = "<group>"; };
 		5B605A391E930B3600E1F313 /* trex-logo-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "trex-logo-circle.png"; path = "../../../Downloads/trex-logo-circle.png"; sourceTree = "<group>"; };
+		5B720EAC1E941BE300D3F955 /* TaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		5B8920D21E9BF9B100DF4047 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				5B605A361E92F95600E1F313 /* Resources */,
-				5B605A2D1E92BE0B00E1F313 /* TaskManager.swift */,
 				5B6059FC1E92BD2100E1F313 /* Inside T-Rex */,
 				5B605A131E92BD2100E1F313 /* Inside T-RexTests */,
 				5B605A1E1E92BD2100E1F313 /* Inside T-RexUITests */,
@@ -119,6 +124,10 @@
 				5B605A061E92BD2100E1F313 /* Assets.xcassets */,
 				5B605A0B1E92BD2100E1F313 /* Info.plist */,
 				5B605A341E92F81D00E1F313 /* Launch Screen.storyboard */,
+				5B720EAC1E941BE300D3F955 /* TaskViewController.swift */,
+				5B140D4D1E9AD597005A1C8D /* LoginPageControllerViewController.swift */,
+				5B8920D21E9BF9B100DF4047 /* Register.swift */,
+				5B485AAC1E9EFDAB00F406AB /* HelpScreen.swift */,
 			);
 			path = "Inside T-Rex";
 			sourceTree = "<group>";
@@ -292,10 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B140D4E1E9AD597005A1C8D /* LoginPageControllerViewController.swift in Sources */,
+				5B720EAD1E941BE300D3F955 /* TaskViewController.swift in Sources */,
 				5B605A021E92BD2100E1F313 /* SecondViewController.swift in Sources */,
 				5B605A301E92CEC600E1F313 /* TaskItem.swift in Sources */,
+				5B485AAD1E9EFDAB00F406AB /* HelpScreen.swift in Sources */,
 				5B6059FE1E92BD2100E1F313 /* AppDelegate.swift in Sources */,
-				5B605A2E1E92BE0B00E1F313 /* TaskManager.swift in Sources */,
+				5B8920D31E9BF9B100DF4047 /* Register.swift in Sources */,
 				5B605A001E92BD2100E1F313 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +547,7 @@
 				5B605A261E92BD2100E1F313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B605A271E92BD2100E1F313 /* Build configuration list for PBXNativeTarget "Inside T-RexTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +556,7 @@
 				5B605A291E92BD2100E1F313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B605A2A1E92BD2100E1F313 /* Build configuration list for PBXNativeTarget "Inside T-RexUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +565,7 @@
 				5B605A2C1E92BD2100E1F313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
