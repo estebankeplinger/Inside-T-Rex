@@ -2,8 +2,6 @@
 //  Inside_T_RexTests.swift
 //  Inside T-RexTests
 //
-//  Created by Esteban Keplinger on 4/3/17.
-//  Copyright © 2017 Esteban Keplinger. All rights reserved.
 //
 
 import XCTest
